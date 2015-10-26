@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
 </head>
 <body>
+  <div id="firstName"></div>
+  <div id="lastName"></div>
+
   <script src="http://codeorigin.jquery.com/jquery-1.10.2.js"></script>
   <script>
     $.get('/api', function (res) {
-      console.log(res);
+      document.querySelector('#firstName').innerHTML = 'First: ' + res.firstName;
+      document.querySelector('#lastName').innerHTML = 'Last: ' + res.lastName;
     });
   </script>
 </body>
