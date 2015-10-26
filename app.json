@@ -1,0 +1,15 @@
+{
+  "name": "Hello Heroku Button",
+  "env": {
+    "FIRST_NAME": {
+      "description": "Your First Name",
+      "value": "First",
+      "required": true
+    },
+    "LAST_NAME": {
+      "description": "Your Last Name",
+      "value": "Last",
+      "required": true
+    }
+  },
+}
