@@ -1,0 +1,21 @@
+{
+  "name": "heroku-button-demo",
+  "version": "0.0.0",
+  "description": "[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brbcoding/heroku-button-demo.git"
+  },
+  "author": "Cody Henshaw <cghensha+npm@gmail.com> (https://github.com/brbcoding)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/brbcoding/heroku-button-demo/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
